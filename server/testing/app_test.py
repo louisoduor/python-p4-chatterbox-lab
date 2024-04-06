@@ -2,6 +2,8 @@ from datetime import datetime
 
 from app import app
 from models import db, Message
+from flask_cors import CORS
+
 
 class TestApp:
     '''Flask application in app.py'''
